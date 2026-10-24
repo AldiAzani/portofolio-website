@@ -3,156 +3,309 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | Ahmad Aldi Al Azani</title>
+
+    <title>Aldi Azani | Personal Portfolio</title>
+    <meta name="description" content="Portfolio personal Aldi Azani, mahasiswa Teknik Informatika yang tertarik pada teknologi dan jaringan komputer.">
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <nav class="navbar">
-            <a href="#home" class="logo">Ahmad Aldi Al-Azani<span>.dev</span></a>
+    <header class="navbar">
+        <div class="container nav-content">
+            <a href="#home" class="logo">Aldi<span>.</span></a>
 
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+            <nav>
+                <a href="#about">Tentang</a>
+                <a href="#skills">Skill</a>
+                <a href="#projects">Proyek</a>
+                <a href="#contact" class="nav-button">Kontak</a>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <section id="home" class="hero">
-    <div class="hero-content">
-        <p class="eyebrow">
-            <span class="status-dot"></span>
-            INFORMATICS STUDENT
-        </p>
+        <section class="hero container" id="home">
+            <div class="hero-content">
+                <p class="eyebrow">HALO, SAYA</p>
 
-        <h1>Building the<br>
-            <span>digital future.</span>
-        </h1>
+                <h1>Aldi Azani</h1>
 
-        <p class="hero-description">
-            Halo, saya Aldi. Mahasiswa Teknik Informatika
-            yang tertarik dengan web development, computer
-            networking, dan teknologi.
-        </p>
+                <h2>Mahasiswa Teknik Informatika</h2>
 
-        <div class="hero-buttons">
-            <a href="#projects" class="btn">Explore Projects ↗</a>
-            <a href="#about" class="btn btn-outline">About Me</a>
-        </div>
+                <p class="hero-description">
+                    Mahasiswa Universitas Indraprasta Teknik Informatika yang tertarik pada jaringan komputer, teknologi, dan pengembangan sistem.
+                </p>
 
-        <div class="hero-meta">
-            <div>
-                <strong>03+</strong>
-                <span>Areas of Interest</span>
+                <div class="hero-buttons">
+                    <a href="#projects" class="button primary">
+                        Lihat Proyek
+                    </a>
+
+                    <a href="#contact" class="button secondary">
+                        Hubungi Saya
+                    </a>
+                </div>
             </div>
-            <div>
-                <strong>∞</strong>
-                <span>Things to Learn</span>
-            </div>
-        </div>
+
+            <div class="profile-area reveal">
+    <div class="profile-circle">
+        <img src="profile.jpeg" alt="Foto profil Aldi">
     </div>
-
-    <div class="hero-visual">
-        <div class="orbit orbit-one"></div>
-        <div class="orbit orbit-two"></div>
-
-        <div class="profile-panel">
-            <div class="panel-top">
-                <span>DEVELOPER PROFILE</span>
-                <span class="panel-dot"></span>
-            </div>
-
-            <div class="avatar">
-    <img src="/portfolio-website/profile.jpeg" alt="Foto profil Aldi">
+    <p>Aldi Azani</p>
+    <span>Personal Portfolio</span>
 </div>
+        </section>
 
-            <h3>Aldi</h3>
-            <p class="profile-role">Informatics Student</p>
+        <section class="section section-muted" id="about">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">TENTANG SAYA</p>
+                    <h2>Mengenal Saya Lebih Dekat</h2>
+                </div>
 
-            <div class="profile-divider"></div>
+                <div class="about-content reveal">
+                    <p>
+                        Saya adalah mahasiswa Teknik Informatika yang
+                        sedang mengembangkan kemampuan di bidang teknologi
+                        informasi. Saya memiliki pengalaman belajar dalam
+                        jaringan komputer, konfigurasi perangkat jaringan,
+                        serta pembuatan website sederhana.
+                    </p>
 
-            <div class="profile-info">
-                <span>LOCATION</span>
-                <strong>Jakarta, Indonesia</strong>
+                    <p>
+                        Saya ingin terus meningkatkan kemampuan teknis,
+                        mendapatkan pengalaman melalui proyek nyata,
+                        dan menemukan bidang teknologi yang paling sesuai
+                        dengan minat saya.
+                    </p>
+                </div>
             </div>
+        </section>
 
-            <div class="profile-info">
-                <span>FOCUS</span>
-                <strong>Web & Networking</strong>
-            </div>
+        <section id="journey">
+    <h2>Perjalanan Saya</h2>
+    <p class="journey-description">
+        Perjalanan pendidikan dan proses saya dalam
+        mengembangkan keterampilan di bidang teknologi.
+    </p>
 
-            <div class="profile-tags">
-                <span>HTML</span>
-                <span>CSS</span>
-                <span>NETWORK</span>
-            </div>
-        </div>
-
-        <div class="floating-code">&lt;/&gt;</div>
-        <div class="floating-star">✳</div>
+    <div class="journey-item reveal">
+        <span class="journey-year">2021–2024</span>
+        <h3>SMK Bhayangkari Delog</h3>
+        <p>
+            Mempelajari dasar teknologi informasi serta
+            praktik jaringan komputer, termasuk konfigurasi
+            LAN dan pengelolaan perangkat jaringan.
+        </p>
     </div>
+
+    <div class="journey-item reveal">
+        <span class="journey-year">2023</span>
+        <h3>Praktik Kerja Lapangan di IBI Kosgoro</h3>
+        <p>
+            Mendapatkan pengalaman praktik di bidang
+            teknologi informasi, termasuk membantu
+            administrasi jaringan, melakukan pengecekan
+            konektivitas, serta memeriksa perangkat komputer
+            di laboratorium.
+        </p>
+    </div>
+
+    <div class="journey-item reveal">
+        <span class="journey-year">2024–Sekarang</span>
+        <h3>Mahasiswa Teknik Informatika</h3>
+        <p>
+            Melanjutkan pendidikan di UNINDRA dan
+            mengembangkan pemahaman tentang jaringan,
+            sistem komputer, basis data, dan pemrograman.
+        </p>
+    </div>
+
 </section>
 
-        <section id="about" class="section">
-            <h2>About Me<span>.</span></h2>
-            <p>
-                Halo! Saya Ahmad Aldi Al Azani, mahasiswa Universitas Indraprasta Teknik Informatika
-            </p>
-        </section>
+        <section class="section container" id="skills">
+            <div class="section-heading">
+                <p class="eyebrow">KEMAMPUAN</p>
+                <h2>Skill yang Saya Pelajari</h2>
+                <p class="section-description">
+                    Beberapa keterampilan yang pernah saya pelajari
+                    melalui perkuliahan dan praktik.
+                </p>
+            </div>
 
-        <section id="skills" class="section">
-            <h2>My Skills<span>.</span></h2>
-            <div class="cards">
-                <article class="card">
-                    <h3>Web Development</h3>
-                    <p>HTML dan CSS dasar.</p>
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <div class="skill-number">01</div>
+                    <h3>Jaringan Komputer</h3>
+                    <p>
+                        Dasar LAN, kabel straight dan crossover,
+                        serta berbagi file melalui jaringan lokal.
+                    </p>
                 </article>
-                <article class="card">
-                    <h3>Programming</h3>
-                    <p>Dasar pemrograman dan algoritma.</p>
+
+                <article class="skill-card">
+                    <div class="skill-number">02</div>
+                    <h3>MikroTik</h3>
+                    <p>
+                        Praktik konfigurasi hotspot dan pengaturan
+                        akses jaringan dasar.
+                    </p>
                 </article>
-                <article class="card">
-                    <h3>Networking</h3>
-                    <p>LAN, konfigurasi IP, dan MikroTik.</p>
+
+                <article class="skill-card">
+                    <div class="skill-number">03</div>
+                    <h3>HTML & CSS</h3>
+                    <p>
+                        Mempelajari struktur halaman web dan
+                        pengaturan tampilan website.
+                    </p>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-number">04</div>
+                    <h3>Problem Solving</h3>
+                    <p>
+                        Memeriksa masalah dasar pada komputer,
+                        koneksi, dan perangkat jaringan.
+                    </p>
                 </article>
             </div>
         </section>
 
-        <section id="projects" class="section">
-            <h2>My Projects<span>.</span></h2>
-            <div class="cards">
-                <article class="card">
-                    <h3>Personal Portfolio</h3>
-                    <p>Website pribadi menggunakan HTML dan CSS.</p>
-                </article>
-                <article class="card">
-                    <h3>Network Configuration</h3>
-                    <p>Latihan konfigurasi jaringan komputer.</p>
-                </article>
-                <article class="card">
-                    <h3>Java GUI</h3>
-                    <p>Latihan membuat aplikasi desktop Java.</p>
-                </article>
+        <section class="section section-muted" id="projects">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">PORTFOLIO</p>
+                    <h2>Proyek dan Praktik</h2>
+                    <p class="section-description">
+                        Beberapa contoh pekerjaan yang pernah saya
+                        pelajari atau kerjakan.
+                    </p>
+                </div>
+
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-top">
+                            <span class="project-tag">Jaringan</span>
+                            <span class="project-index">01</span>
+                        </div>
+                        
+                        <img
+    src="konfigurasi-lan.jpeg"
+    alt="Dokumentasi konfigurasi jaringan lokal"
+    class="project-image"
+>
+                        <h3>Konfigurasi Jaringan Lokal</h3>
+                        <p>
+                            Praktik pengkabelan LAN, pengaturan koneksi,
+                            dan berbagi file antar komputer.
+                        </p>
+                        <p class="project-note">
+                            Praktik pembelajaran
+                        </p>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-top">
+                            <span class="project-tag">MikroTik</span>
+                            <span class="project-index">02</span>
+                        </div>
+
+                        <img
+        src="hotspot.jpeg"
+        alt="Dokumentasi konfigurasi hotspot"
+        class="project-image"
+    >
+
+                        <h3>Hotspot dan Pengaturan Akses</h3>
+                        <p>
+                            Praktik membuat hotspot dan menerapkan
+                            pembatasan akses tertentu pada jaringan.
+                        </p>
+                        <p class="project-note">
+                            Praktik pembelajaran
+                        </p>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-top">
+                            <span class="project-tag">Web</span>
+                            <span class="project-index">03</span>
+                        </div>
+
+                         <img
+        src="personal-web.jpeg"
+        alt="Tampilan website portfolio pribadi"
+        class="project-image"
+    >
+
+                        <h3>Personal Portfolio Website</h3>
+                        <p>
+                            Membuat website portfolio menggunakan
+                            HTML dan CSS, lalu mempublikasikannya
+                            melalui GitHub Pages.
+                        </p>
+                        <p class="project-note">
+                            Proyek personal
+                        </p>
+                    </article>
+                </div>
             </div>
         </section>
 
-        <section id="contact" class="section">
-            <h2>Contact Me<span>.</span></h2>
-            <p>Silakan hubungi saya melalui email.</p>
-            <a href="aldiazani06@gmail.com" class="btn">
-                Send Email
-            </a>
-        </section>
+        <section id="contact">
+    <h2>Contact Me</h2>
+    <p>
+        Tertarik bekerja sama atau ingin berdiskusi?
+        Silakan hubungi saya melalui kontak berikut.
+    </p>
+
+    <div class="contact-info">
+        <a href="mailto:aldiazani06@gmail.com">
+            Email
+        </a>
+
+        <a href="https://Instagram.com/aldiazani"
+           target="_blank">
+            Instagram
+        </a>
+
+        <a href="https://github.com/AldiAzani"
+           target="_blank">
+            GitHub
+        </a>
+    </div>
+</section>
     </main>
 
-    <footer>
-        <p>© 2026 Aldi | Built with HTML & CSS</p>
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>© 2026 Aldi Azani</p>
+            <p>Dibuat dengan HTML & CSS</p>
+        </div>
     </footer>
+
+<script>
+    const animatedElements = document.querySelectorAll(
+        ".reveal, .skill-card, .project-card"
+    );
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("show");
+                observer.unobserve(entry.target);
+            }
+        });
+    }, {
+        threshold: 0.15
+    });
+
+    animatedElements.forEach((element) => {
+        observer.observe(element);
+    });
+</script>
 
 </body>
 </html>
